@@ -1393,7 +1393,7 @@ ul, ol{
   border-radius: 50%;
   color: #fff;
   display: block;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 700;
   height: 140px;
   margin: 0 auto;
@@ -1679,10 +1679,10 @@ a:hover, a:focus {
   margin-bottom: 0;
   padding: 0;
   overflow: hidden;
+  text-align: center;
+  margin-top: 20px;
 }
 .single_contact_info i {
-  display: inline-block;
-  float: left;
   font-size: 36px;
   height: auto;
   line-height: 60px;
@@ -1690,7 +1690,6 @@ a:hover, a:focus {
   width: auto;
 }
 .single_contact_info p {
-  float: left;
   margin-bottom: 0;
   margin-top: 4px;
   padding-left: 16px;
@@ -1825,6 +1824,9 @@ a.f_youtube:after{
 a.f_skype:after{
     background: #00AFF0;
 }
+a.f_whatsapp:after{
+  background: #25D366;
+}
 .no_padding{
 	padding: 0;
 }
@@ -1862,6 +1864,7 @@ a.f_skype:after{
 }
 .content_left_title {
   margin-bottom: 30px;
+  text-align: center;
 }
 .contact__infos {
   margin-top: 80px;
