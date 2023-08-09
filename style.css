@@ -755,8 +755,19 @@ ul, ol{
 .menu-shrink .main_logo {
   display: block;
 }
+
+.main_logo img {
+  width: 130px;
+  height: auto;
+}
+
 .menu-shrink .white_logo {
   display: none;
+}
+
+.white_logo img {
+  width: 200px;
+  height: auto;
 }
 
 #slider_area, .single_slide, .single-slide-item-table {
@@ -1091,6 +1102,9 @@ ul, ol{
 .single_portfolio img{
     width: 100%;
     height: 28vh;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
 }
 .single_portfolio .box-content{
     width: 100%;
@@ -1111,12 +1125,14 @@ ul, ol{
     text-transform: uppercase;
     letter-spacing: 1px;
     margin: 0 0 10px;
+    text-shadow: 2px 2px 4px #000000;
 }
 .single_portfolio .post{
     display: block;
     font-size: 15px;
     font-weight: 600;
     color: #fff;
+    text-shadow: 2px 2px 4px #000000;
 }
 .single_portfolio .icon{
     list-style: none;
