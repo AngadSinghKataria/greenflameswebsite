@@ -904,9 +904,6 @@ ul, ol{
   z-index: 1;
 }
 
-.single_about:hover{
-
-}
 .single_about .about_icon {
   margin-bottom: 22px;
 }
@@ -1150,10 +1147,17 @@ ul, ol{
 	display: inline-block;
 	border-radius: 50%;
 }
-	.single_portfolio .icon li a:hover{
+
+.single_portfolio .icon li a:hover{
 	background: #331D2C;
 	color: #fff;
 }
+
+.mfp-img {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
 @media only screen and (max-width:990px){
     .single_portfolio{ margin-bottom: 30px; }
 }
